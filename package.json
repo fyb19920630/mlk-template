@@ -2,6 +2,7 @@
   "name": "{{projectName}}",
   "version": "{{version}}",
   "description": "{{description}}",
+  "license": "ISC",
   "scripts": {
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi build",
