@@ -1,0 +1,63 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background: @layout-body-background;
+}
+
+.lang {
+  width: 100%;
+  text-align: right;
+  :global(.ant-dropdown-trigger) {
+    margin-right: 24px;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 32px 0;
+}
+
+@media (min-width: @screen-md-min) {
+  .container {
+    background-color: #ebf1fd;
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    //background-position: center 110px;
+    background-size: 100%;
+  }
+
+  .content {
+    padding: 32px 0 24px;
+  }
+}
+
+.top {
+  text-align: center;
+}
+
+.header {
+  margin: 30px 0 100px;
+  .logo {
+    width: 300px;
+  }
+}
+
+.title {
+  position: relative;
+  top: 2px;
+  color: @heading-color;
+  font-weight: 600;
+  font-size: 33px;
+  font-family: Avenir, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.desc {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  color: @text-color-secondary;
+  font-size: @font-size-base;
+}

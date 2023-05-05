@@ -1,0 +1,42 @@
+.uploadSingleCon {
+  /*width: 128px;*/
+  float: left;
+  :global(.ant-upload-list.ant-upload-list-picture-card) {
+    overflow: hidden;
+    float: left;
+  }
+  .singlePhotoUpload {
+    :global(.ant-upload.ant-upload-select-picture-card) {
+      float: left;
+      //box-sizing: content-box;
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      //border: 1px solid #e3e3e3;
+      border-radius: 6px;
+      :global(.ant-upload) {
+        padding: 0;
+      }
+    }
+    .photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 4px;
+    }
+    .uploadBtn {
+      .uploadText {
+        color: #888;
+        font-size: 12px;
+      }
+    }
+  }
+  .photoName {
+    display: inline-block;
+  }
+  .photoNameTop {
+    display: inline-block;
+    margin: 0 0 14px;
+    color: #333;
+    font-size: 15px;
+  }
+}

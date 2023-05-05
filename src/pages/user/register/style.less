@@ -1,0 +1,125 @@
+@import '~antd/es/style/themes/default.less';
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+    }
+    .has-error .ant-form-explain {
+      width: 281px;
+      text-align: left !important;
+    }
+  }
+
+  h3 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .getCaptcha {
+    display: block;
+    width: 100%;
+  }
+
+  .submit {
+    width: 50%;
+  }
+
+  .login {
+    float: right;
+    line-height: @btn-height-lg;
+  }
+}
+
+.success,
+.warning,
+.error {
+  transition: color 0.3s;
+}
+
+.success {
+  color: @success-color;
+}
+
+.warning {
+  color: @warning-color;
+}
+
+.error {
+  color: @error-color;
+}
+
+.progress-pass > .progress {
+  :global {
+    .ant-progress-bg {
+      background-color: @warning-color;
+    }
+  }
+}
+.loginForm {
+  max-width: 300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.loginFormForgot {
+  float: right;
+}
+.loginFormButton {
+  width: 100%;
+}
+.ct {
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+  height: 550px;
+  //background: white;
+  padding-top: 60px;
+  border-radius: 5px;
+  margin-top: -50px;
+  background-color: #fff;
+}
+.opts {
+  opacity: 0;
+}
+.ant-modal-content {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.loginIframe {
+  width: 100%;
+  height: 400px;
+}
+.has-error .ant-form-explain {
+  width: 281px;
+  text-align: left !important;
+}
+
+:global {
+  .has-error .ant-form-explain {
+    width: 281px;
+    text-align: left !important;
+  }
+  .ant-select-selection--single {
+    height: 40px;
+  }
+  .ant-select-selection__rendered {
+    line-height: 40px;
+  }
+}
+
+.registerSelect {
+  height: 40px;
+}
+.loginModel {
+  position: fixed;
+  right: 12%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
